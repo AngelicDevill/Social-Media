@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'accounts.apps.AccountsConfig',
     'bootstrap3',
     'groups.apps.GroupsConfig',
-    'posts.apps.PostsConfig'
+    'posts.apps.PostsConfig',
+    'django.contrib.humanize'
 ]
 
 MIDDLEWARE = [
